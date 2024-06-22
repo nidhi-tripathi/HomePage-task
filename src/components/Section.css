@@ -1,0 +1,9 @@
+.ri--check-double-line {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #14279b;
+    line-height: 1;
+  }
+  

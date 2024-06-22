@@ -7,12 +7,42 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        'bounce-slow': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        'fade-in': {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
+      animation: {
+        'bounce-slow': 'bounce-slow 2s infinite',
+        'fade-in': 'fade-in 1s ease-in-out',
+      },
+      colors: {
+        'custom-blue': '#14279b', 
+        'custom-lightblue': '#1E90FF', 
+        'custom-gray': '#484848',
+        'custom-lightgray':'#f3f9fd',
+        'custom-grayvish':' #e6e6e6',
+      },
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
+      },
+      spacing: {
+        '50': '12.5rem', // 50px
+      },
+      borderRadius: {
+        '50px': '50px',
       },
     },
+  },
+  variants: {
+    extend:{
+
+    }
   },
   plugins: [],
 }
