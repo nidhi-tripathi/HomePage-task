@@ -38,7 +38,7 @@ const ServicesPage = () => {
             }} className="title text-xl font-semibold mb-2">Design</h4>
             <p style={{
                 fontSize: "21px",
-              }} className="description transition-all duration-300">Our web design services can assist you in reclaiming your company's online image. Your business will flourish on the Internet thanks to the combination of style and technology we provide, as well as our experience.</p>
+              }} className="description transition-all duration-300">Our web design services can assist you in reclaiming your company&rsquo;s online image. Your business will flourish on the Internet thanks to the combination of style and technology we provide, as well as our experience.</p>
           </div>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
@@ -71,7 +71,7 @@ const ServicesPage = () => {
             <h4 style={{fontSize:'25px'}} className="title text-xl font-semibold mb-2">Support</h4>
             <p style={{
                 fontSize: "21px"
-                }} className="hover:text-white transition-all duration-300">Since the beginning, we at Akeshya have specialised in website maintenance. We recognise the significance of having your business online 24 hours a day, seven days a week, and we've created a system to ensure that we're always available.</p>
+                }} className="hover:text-white transition-all duration-300">Since the beginning, we at Akeshya have specialised in website maintenance. We recognise the significance of having your business online 24 hours a day, seven days a week, and we&rsquo;ve created a system to ensure that we&rsquo;re always available.</p>
           </div>
         </div>
       </div>
