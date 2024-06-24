@@ -33,7 +33,7 @@ const Process = () => {
     <div className="box group p-6 bg-custom-grayvish rounded-lg shadow-lg hover:bg-blue-900 transition-shadow hover:text-white transition-all duration-300 h-full flex flex-col justify-center items-center text-center mx-8 min-h-full">
       <h4 style={{ fontSize: '25px' }} className="title text-xl font-semibold mb-2">1.Planning</h4>
       <p style={{ fontSize: '21px' }} className="description transition-all duration-300">
-      We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we're all on the same page.
+      We help you turn all of your ideas into a digital product that meets all of your requirements. We begin each project by determining its scope and needs. This is done by collaborating closely with you to ensure that we&rsquo;re all on the same page.
       </p>
     </div>
   </div>
